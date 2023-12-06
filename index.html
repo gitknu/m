@@ -23,8 +23,8 @@
 
   img-comparison-slider {
   visibility: hidden;
-  border: 50px solid rgba(255, 255, 255, 0.5);
-  border-radius: 35px;
+  border: 3vw solid rgba(255, 255, 255, 0.5);
+  border-radius: 3vw;
   overflow: hidden;
   background-image: linear-gradient(white, white), 
                     linear-gradient(to right, #f4ffb4, #bbffec);
@@ -53,7 +53,11 @@ img-comparison-slider.rendered [slot='second'] {
   }
   
   img {
-      border-radius: 25px; /* Add border-radius to fade the edges */
+      border-radius: 15px; /* Add border-radius to fade the edges */
+      border-radius: 3vw; /* Add border-radius to fade the edges */
+      max-width: 100%;
+      height: auto;
+    }
     }
   
 </style>
